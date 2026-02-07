@@ -277,3 +277,76 @@ footer {
     padding-top: 20px;
     color: #666;
 }
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media screen and (max-width: 600px) {
+
+    /* Body adjustments */
+    body {
+        padding: 0 10px 10px 10px;
+        border-width: 2px;
+    }
+
+    /* Smaller heading */
+    h1 {
+        font-size: 1.8rem;
+        padding: 15px 0;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    /* Navigation - wrap and center */
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 5px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 5px 8px;
+    }
+
+    /* Dropdown - adjust position */
+    .dropdown-menu {
+        min-width: 150px;
+    }
+
+    /* Hero section - stack vertically */
+    .hero {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 1.4rem;
+    }
+
+    /* Project grid - stack on mobile */
+    .project-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .project-card img {
+        height: 200px;
+    }
+
+    /* CTA section */
+    .cta-section {
+        padding: 25px 15px;
+    }
+
+    /* Case study pages */
+    .case-study ul {
+        padding-left: 15px;
+    }
+}
