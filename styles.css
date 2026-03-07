@@ -148,7 +148,8 @@ nav a.active {
 }
 
 /* ===== BUTTONS ===== */
-.button {
+.button,
+.button:visited {
     display: inline-block;
     background-color: #0077B6;
     color: white;
@@ -161,6 +162,8 @@ nav a.active {
 .button:hover {
     background-color: #005f8a;
     border-color: #00496b;
+    color: white;
+    text-decoration: none;
 }
 
 /* ===== HERO SECTION ===== */
